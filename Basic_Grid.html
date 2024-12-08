@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Exploration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .content-wrapper {
+            flex: 1;
+        }
+        .sidebar {
+            background-color: #f8f9fa;
+            padding: 15px;
+        }
+        .main-content {
+            padding: 15px;
+        }
+        header, footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-center">
+        <h1>Space Exploration</h1>
+        <p>Discovering the Wonders of the Universe</p>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Left Sidebar -->
+                <div class="col-md-3 sidebar">
+                    <h3>Mission Control</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Launch Schedule</a></li>
+                        <li><a href="#" class="text-decoration-none">Astronaut Training</a></li>
+                        <li><a href="#" class="text-decoration-none">Space Weather</a></li>
+                    </ul>
+                </div>
+
+                <!-- Main Content -->
+                <div class="col-md-6 main-content">
+                    <h2>Latest Space News</h2>
+                    <article>
+                        <h4>New Exoplanet Discovered</h4>
+                        <p>Scientists have discovered a potentially habitable exoplanet orbiting a nearby star. The planet, named Kepler-452b, is being called Earth's "older cousin" due to its similarities to our home world.</p>
+                    </article>
+                    <article>
+                        <h4>Mars Rover Finds Evidence of Ancient Lake</h4>
+                        <p>NASA's Perseverance rover has uncovered compelling evidence of an ancient lake on Mars, suggesting that the Red Planet may have once harbored conditions suitable for life.</p>
+                    </article>
+                </div>
+
+                <!-- Right Sidebar -->
+                <div class="col-md-3 sidebar">
+                    <h3>Space Facts</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">The Sun accounts for 99.86% of the mass in our solar system.</li>
+                        <li class="list-group-item">One day on Venus is longer than one year on Earth.</li>
+                        <li class="list-group-item">The footprints on the Moon will be there for 100 million years.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <p>&copy; 2024 Space Exploration Center. All rights reserved.</p>
+        <p>Contact: info@spaceexploration.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

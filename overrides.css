@@ -1,0 +1,9 @@
+body {
+  background-color: cornsilk;
+}
+
+.highlight-content {
+  background-color: lightgoldenrodyellow;
+  border: 2px solid lightblue;
+  padding: 10px;
+}
